@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        setTitle("초간단 계산기");
         initRef();
 
         btnAdd.setOnTouchListener(new View.OnTouchListener() {
