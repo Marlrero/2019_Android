@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         linearLayoutYellow = (LinearLayout) findViewById(R.id.linearLayoutYellow);
         linearLayoutBlack = (LinearLayout) findViewById(R.id.linearLayoutBlack);
 
-
         linearLayoutPurple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
