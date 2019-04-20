@@ -30,11 +30,11 @@ public class MainActivity extends AppCompatActivity {
 
         final Button btn = new Button(this);
         btn.setText("버튼입니다");
-        btn.setTextSize((float)20.0);
         btn.setBackgroundColor(Color.rgb(255, 255, 0));
 
         final TextView tv = new TextView(this);
         tv.setTextColor(Color.rgb(139, 0, 255));
+        tv.setTextSize((float)20.0);
 
         baseLayout.addView(edit);
         baseLayout.addView(btn);
